@@ -72,7 +72,7 @@ function changeChar(a, i, c) {
         contentP.innerText = data[i]['desc'][c]  
         viewBg.style.background = `url(./assets/lado/${a}/wpp/${a}_${data[i]['wpp'][c]})`
         viewBg.style.backgroundSize = 'cover'
-        viewBg.style.backgroundPosition = '20%'      
+        viewBg.style.backgroundPosition = '50%'      
     }, 500);
     setTimeout(() => {
         viewBg.style.opacity = '1'
