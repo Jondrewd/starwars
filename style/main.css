@@ -218,7 +218,6 @@ main.off .character-selector img {
     align-items: center;
     width: 80vw;
     height: 100vh;
-    box-shadow: 5px 5px 10px 1px rgba(255, 255, 255, 0.396);;
     cursor: pointer;
     transition: .5s;
 }
